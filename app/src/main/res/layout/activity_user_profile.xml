@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".UserProfileActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:layout_marginTop="0dp"
+    >
+
+    <ImageView
+        android:id="@+id/user_profile_pic"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/ic_user"
+        android:layout_marginTop="0dp"
+        android:padding="0dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:id="@+id/user_username"
+        android:textSize="24sp"
+        android:layout_marginTop="-40dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:id="@+id/user_about_label"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        /><TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/user_about_text"
+        android:textSize="18sp"
+
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        />
+
+</LinearLayout>
